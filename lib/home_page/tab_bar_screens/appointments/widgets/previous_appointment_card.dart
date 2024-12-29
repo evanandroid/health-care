@@ -116,7 +116,7 @@ class PreviousAppointementCard extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                      primary: mainColor,
+                      backgroundColor: mainColor,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10.w),
                       ),
@@ -144,7 +144,7 @@ class PreviousAppointementCard extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                      primary: mainColor,
+                      backgroundColor: mainColor,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10.w),
                       ),

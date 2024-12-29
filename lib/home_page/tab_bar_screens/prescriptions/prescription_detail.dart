@@ -52,29 +52,29 @@ class PrescriptionDetail extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [Text("Name"), Text("Hassan")],
+                  children: [Text("Name"), Text("Hassan")],
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [Text("NIC"), Text("557-4342-731-7774")],
+                  children: [Text("NIC"), Text("557-4342-731-7774")],
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [Text("Gender"), Text("Male")],
+                  children: [Text("Gender"), Text("Male")],
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [Text("Time"), Text("15:00 - 15:30")],
+                  children: [Text("Time"), Text("15:00 - 15:30")],
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [Text("Date"), Text("06 August 2022")],
+                  children: [Text("Date"), Text("06 August 2022")],
                 ),
                 SizedBox(height: 12.h),
                 const Divider(
@@ -90,25 +90,25 @@ class PrescriptionDetail extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text("Insuline Glulisine"),
                     Text("12ml take once a day")
                   ],
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text("Orinase"),
                     Text("500 mg tablets - 2-3 times daily")
                   ],
                 ),
                 SizedBox(height: 12.h),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text("Glucotrol"),
                     Text("12 mg tablets   -  take once a day")
                   ],

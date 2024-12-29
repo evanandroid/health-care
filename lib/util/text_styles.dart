@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 TextTheme textTheme = const TextTheme(
-  headline1: TextStyle(
+  displayLarge: TextStyle(
     color: Colors.black,
     fontSize: 30,
     fontWeight: FontWeight.w600,
     fontFamily: "Poppins",
   ),
-  headline2: TextStyle(
+  displayMedium: TextStyle(
     color: Colors.black,
     fontSize: 28,
     fontWeight: FontWeight.bold,
@@ -37,32 +37,32 @@ TextTheme textTheme = const TextTheme(
   //   fontSize: 14,
   //   fontWeight: FontWeight.bold,
   // ),
-  bodyText1: TextStyle(
+  bodyLarge: TextStyle(
     // forgot password
     color: Colors.black,
     fontSize: 16,
     fontWeight: FontWeight.w600,
   ),
-  bodyText2: TextStyle(
+  bodyMedium: TextStyle(
     // remember me text
     color: Colors.black,
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: "Inter",
   ),
-  button: TextStyle(
+  labelLarge: TextStyle(
     color: Colors.white,
     fontSize: 16,
     fontWeight: FontWeight.w600,
   ),
-  caption: TextStyle(
+  bodySmall: TextStyle(
     // dont have an account
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: "Inter",
     color: Colors.grey,
   ),
-  overline: TextStyle(
+  labelSmall: TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w600,
     fontFamily: "Inter",

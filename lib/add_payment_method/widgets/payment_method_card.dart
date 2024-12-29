@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../providers/payment_method_provider.dart';
 
+// ignore: must_be_immutable
 class PaymentMethodCard extends StatefulWidget {
   PaymentMethodCard({
     Key? key,

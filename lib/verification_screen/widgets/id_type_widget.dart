@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../util/colors.dart';
 import '../providers/id_verification_provider.dart';
 
+// ignore: must_be_immutable
 class IdTypeWidget extends StatefulWidget {
   IdTypeWidget({
     Key? key,

@@ -43,7 +43,7 @@ class AddPaymentMethodScreen extends StatelessWidget {
                           SizedBox(width: 10.w),
                           Text(
                             "Add Payment\nMethod",
-                            style: textTheme.headline1,
+                            style: textTheme.displayLarge,
                           ),
                         ],
                       ),

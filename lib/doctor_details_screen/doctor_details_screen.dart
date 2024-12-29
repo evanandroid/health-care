@@ -17,6 +17,7 @@ class DoctorDetailsScreen extends StatefulWidget {
 
 class _DoctorDetailsScreenState extends State<DoctorDetailsScreen> {
   DateTime? _selectedDay;
+  // ignore: unused_field
   DateTime? _focusedDay;
 
   @override

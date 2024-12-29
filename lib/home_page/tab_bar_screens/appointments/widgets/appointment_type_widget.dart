@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../providers/appointment_type_provider.dart';
 
+// ignore: must_be_immutable
 class AppointmentType extends StatefulWidget {
   AppointmentType({
     Key? key,

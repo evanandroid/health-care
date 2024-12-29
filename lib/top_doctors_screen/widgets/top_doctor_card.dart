@@ -45,9 +45,9 @@ class TopDoctorCard extends StatelessWidget {
           ),
           subtitle: Column(
             children: [
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.start,
-                children: const [
+                children: [
                   Text(
                     "Reproductive Psychiatry ",
                     style: TextStyle(

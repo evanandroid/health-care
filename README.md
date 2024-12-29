@@ -1,8 +1,8 @@
-# Aderis Health Mobile App
+# Aiders Health Mobile App
 
 A health, doctor, patient mobile app made using Flutter.
 
-[![wakatime](https://wakatime.com/badge/user/ec57600d-1d86-47c7-a978-8435c3d0e65a/project/a5a2cfa3-1d11-4bba-a813-c351f07bbde3.svg)](https://wakatime.com/badge/user/ec57600d-1d86-47c7-a978-8435c3d0e65a/project/a5a2cfa3-1d11-4bba-a813-c351f07bbde3)
+[![wakame](https://wakatime.com/badge/user/ec57600d-1d86-47c7-a978-8435c3d0e65a/project/a5a2cfa3-1d11-4bba-a813-c351f07bbde3.svg)](https://wakatime.com/badge/user/ec57600d-1d86-47c7-a978-8435c3d0e65a/project/a5a2cfa3-1d11-4bba-a813-c351f07bbde3)
 
 ## Guidelines To Contribute:
 Just open a `pull request` if you would like to add something. To open a pull request
@@ -23,8 +23,8 @@ Just open a `pull request` if you would like to add something. To open a pull re
 - Issue Fixes
 
 <p>
-<img src ="1.png">
-<img src ="2.png">
-<img src ="3.png">
-<img src ="4.png">
+<img src ="1.png" alt="">
+<img src ="2.png" alt="">
+<img src ="3.png" alt="">
+<img src ="4.png" alt="">
 <p>

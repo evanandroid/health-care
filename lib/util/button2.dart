@@ -38,7 +38,7 @@ class Button2 extends StatelessWidget {
           ],
         ),
         child: Button1(
-          textStyle: textTheme.button!,
+          textStyle: textTheme.labelLarge!,
           buttonColor: button2Color,
           text: text,
           borderRadius: 30,

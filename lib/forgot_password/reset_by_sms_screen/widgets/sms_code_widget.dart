@@ -13,6 +13,7 @@ class SmsCodeWidget extends StatefulWidget {
 }
 
 class _SmsCodeWidgetState extends State<SmsCodeWidget> {
+  // ignore: unused_field
   final bool _isFilled = false;
 
   @override

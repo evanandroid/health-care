@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../util/colors.dart';
 import '../providers/doctor_service_provider.dart';
 
+// ignore: must_be_immutable
 class DoctorServiceTypeWidget extends StatefulWidget {
   DoctorServiceTypeWidget({
     Key? key,

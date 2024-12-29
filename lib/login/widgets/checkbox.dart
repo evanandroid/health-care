@@ -26,7 +26,7 @@ class _CheckBoxWidgetState extends State<CheckBoxWidget> {
             });
           },
         ),
-        Text(widget.text, style: textTheme.bodyText2),
+        Text(widget.text, style: textTheme.bodyMedium),
       ],
     );
   }

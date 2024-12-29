@@ -42,7 +42,7 @@ class VerificationIdScreen extends StatelessWidget {
                           SizedBox(width: 10.w),
                           Text(
                             "Verification Id",
-                            style: textTheme.headline1,
+                            style: textTheme.displayLarge,
                           ),
                         ],
                       ),

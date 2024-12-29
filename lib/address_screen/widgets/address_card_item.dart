@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../util/colors.dart';
 import '../providers/address_card_provider.dart';
 
+// ignore: must_be_immutable
 class AddressCardItem extends StatelessWidget {
   AddressCardItem({Key? key, required this.title, required this.selected})
       : super(key: key);

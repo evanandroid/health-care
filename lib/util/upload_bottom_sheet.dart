@@ -45,7 +45,7 @@ class UploadBottomSheet extends StatelessWidget {
                 children: [
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.white,
+                      backgroundColor: Colors.white,
                       shape: RoundedRectangleBorder(
                         side: BorderSide(
                           color: mainColor,
@@ -67,7 +67,7 @@ class UploadBottomSheet extends StatelessWidget {
                   SizedBox(width: 5.w),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: mainColor,
+                      backgroundColor: mainColor,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),

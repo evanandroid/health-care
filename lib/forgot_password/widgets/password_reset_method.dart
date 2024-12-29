@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../../util/text_styles.dart';
 import '../providers/forgot_password_provider.dart';
 
+// ignore: must_be_immutable
 class PasswordResetMethod extends StatefulWidget {
   PasswordResetMethod({
     Key? key,

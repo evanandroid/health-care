@@ -34,7 +34,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                         },
                       ),
                       SizedBox(width: 0.w),
-                      Text("Forgot Password", style: textTheme.headline1),
+                      Text("Forgot Password", style: textTheme.displayLarge),
                     ],
                   ),
                   SizedBox(height: 50.h),
@@ -69,7 +69,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                       ],
                     ),
                     child: Button1(
-                      textStyle: textTheme.button!,
+                      textStyle: textTheme.labelLarge!,
                       buttonColor: forgotPasswordData.checkIfAllSelected()
                           ? button2Color
                           : Colors.grey,

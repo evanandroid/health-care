@@ -1,5 +1,7 @@
 import 'package:aderis_health/home_page/widgets/profile_avatar.dart';
-import 'package:aderis_health/home_page/widgets/search_bar.dart';
+// ignore: unused_import
+import 'package:aderis_health/home_page/widgets/search_bar.dart'
+    as custom_search;
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -50,7 +52,7 @@ class TopDoctorsScreen extends StatelessWidget {
                   width: 368.w,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.white70,
+                      backgroundColor: Colors.white70,
                     ),
                     onPressed: () {},
                     child: const Text(

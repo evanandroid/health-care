@@ -42,7 +42,7 @@ class VerificationDriverScreen extends StatelessWidget {
                           SizedBox(width: 10.w),
                           Text(
                             "Verification Driver",
-                            style: textTheme.headline1,
+                            style: textTheme.displayLarge,
                           ),
                         ],
                       ),

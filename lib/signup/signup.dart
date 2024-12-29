@@ -34,7 +34,7 @@ class SignUpScreen extends StatelessWidget {
                           Navigator.pop(context);
                         },
                       ),
-                      Text("Sign Up", style: textTheme.headline1),
+                      Text("Sign Up", style: textTheme.displayLarge),
                       TextButton(
                         onPressed: () {
                           Navigator.of(context)
@@ -91,7 +91,7 @@ class SignUpScreen extends StatelessWidget {
                   SizedBox(height: 16.h),
                   TextButton(
                     child: Text("Forgot Your Password",
-                        style: textTheme.bodyText1),
+                        style: textTheme.bodyLarge),
                     onPressed: () {
                       Navigator.pushNamed(
                           context, ForgotPasswordScreen.routeName);

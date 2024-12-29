@@ -38,7 +38,7 @@ class PrefferedPharmacyScreen extends StatelessWidget {
                         SizedBox(width: 20.w),
                         Text(
                           "Select Preffered\nPharmacy",
-                          style: textTheme.headline1,
+                          style: textTheme.displayLarge,
                         ),
                       ],
                     ),
@@ -72,12 +72,13 @@ class PrefferedPharmacyScreen extends StatelessWidget {
                         ],
                       ),
                       child: Button1(
-                        textStyle: textTheme.button!,
+                        textStyle: textTheme.labelLarge!,
                         buttonColor: button2Color,
                         text: "Skip And Continue",
                         borderRadius: 30,
                         onPress: () {
-                          Navigator.pushNamed(context, AddPaymentMethodScreen.routeName );
+                          Navigator.pushNamed(
+                              context, AddPaymentMethodScreen.routeName);
                         },
                       ),
                     ),

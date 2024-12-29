@@ -62,7 +62,7 @@ class InstantAppointmentCard extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    primary: const Color.fromRGBO(87, 98, 182, 0.2),
+                    backgroundColor: const Color.fromRGBO(87, 98, 182, 0.2),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),

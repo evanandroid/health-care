@@ -6,7 +6,6 @@ import '../../util/colors.dart';
 import '../widgets/instant_appointment_card.dart';
 import '../widgets/list_of_slider_items.dart';
 import '../widgets/main_heading.dart';
-import '../widgets/search_bar.dart';
 
 class Home extends StatelessWidget {
   const Home({
@@ -33,7 +32,6 @@ class Home extends StatelessWidget {
                 child: DefaultTabController(
                   length: 4,
                   child: TabBar(
-
                     indicatorSize: TabBarIndicatorSize.label,
                     indicatorColor: mainColor,
                     labelColor: Colors.black,

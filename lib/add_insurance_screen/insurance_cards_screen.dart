@@ -37,7 +37,7 @@ class InsuranceCardsScreen extends StatelessWidget {
                         ),
                         SizedBox(width: 20.w),
                         Text("Add Insurance \nCards Here",
-                            style: textTheme.headline1),
+                            style: textTheme.displayLarge),
                       ],
                     ),
                     SizedBox(height: 70.h),
@@ -75,7 +75,7 @@ class InsuranceCardsScreen extends StatelessWidget {
                         ],
                       ),
                       child: Button1(
-                        textStyle: textTheme.button!,
+                        textStyle: textTheme.labelLarge!,
                         buttonColor: button2Color,
                         text: "Save And Continue",
                         borderRadius: 30,

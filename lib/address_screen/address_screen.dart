@@ -43,7 +43,7 @@ class AddressScreen extends StatelessWidget {
                         SizedBox(width: 20.w),
                         Text(
                           "Home Address",
-                          style: textTheme.headline1,
+                          style: textTheme.displayLarge,
                         ),
                       ],
                     ),
@@ -81,7 +81,7 @@ class AddressScreen extends StatelessWidget {
                         ],
                       ),
                       child: Button1(
-                        textStyle: textTheme.button!,
+                        textStyle: textTheme.labelLarge!,
                         buttonColor: button2Color,
                         text: "Save And Continue",
                         borderRadius: 30,

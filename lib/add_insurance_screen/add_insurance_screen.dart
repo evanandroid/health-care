@@ -27,7 +27,7 @@ class AddInsuranceScreen extends StatelessWidget {
               child: Center(
                 child: Column(
                   children: [
-                    Text("Add Insurance", style: textTheme.headline1),
+                    Text("Add Insurance", style: textTheme.displayLarge),
                     SizedBox(height: 70.h),
                     Image.asset("assets/images/insurance.png"),
                     SizedBox(height: 190.h),
@@ -47,7 +47,7 @@ class AddInsuranceScreen extends StatelessWidget {
                         ],
                       ),
                       child: Button1(
-                        textStyle: textTheme.button!,
+                        textStyle: textTheme.labelLarge!,
                         buttonColor: button2Color,
                         text: "Add Insurance",
                         borderRadius: 30,
@@ -74,7 +74,7 @@ class AddInsuranceScreen extends StatelessWidget {
                         ],
                       ),
                       child: Button1(
-                        textStyle: textTheme.button!,
+                        textStyle: textTheme.labelLarge!,
                         buttonColor: button2Color,
                         text: "Skip And Continue",
                         borderRadius: 30,

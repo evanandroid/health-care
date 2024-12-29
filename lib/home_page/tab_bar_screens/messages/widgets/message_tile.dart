@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../chat_screen.dart';
 
+// ignore: must_be_immutable
 class MessageTile extends StatefulWidget {
   MessageTile(
       {Key? key,

@@ -59,10 +59,10 @@ class PrescriptionCard extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 8.h),
-                Row(
+                const Row(
                   children: [
                     Row(
-                      children: const [
+                      children: [
                         Icon(
                           Icons.calendar_month_rounded,
                           color: Colors.grey,
@@ -100,7 +100,7 @@ class PrescriptionCard extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: const Color.fromRGBO(87, 98, 182, 0.2),
+                      backgroundColor: const Color.fromRGBO(87, 98, 182, 0.2),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
